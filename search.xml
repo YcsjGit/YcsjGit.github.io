@@ -8,13 +8,11 @@
       <link href="/posts/e180.html"/>
       <url>/posts/e180.html</url>
       
-        <content type="html"><![CDATA[<p><span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/23f0.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/23f0.png?v8">⏰</span></p><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><a id="more"></a><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><p>这是引用的内容</p></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote><p><a href="http://jianshu.com" target="_blank" rel="noopener">简书</a><br><a href="http://baidu.com" target="_blank" rel="noopener">百度</a></p><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><p>注意：- + * 跟内容之间都要有一个空格</p><table><thead><tr><th>表头</th><th align="center">表头</th><th align="right">表头</th></tr></thead><tbody><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr></tbody></table><p>第二行分割表头和内容。</p><ul><li>有一个就行，为了对齐，多加了几个<br>文字默认居左</li><li>两边加：表示文字居中</li><li>右边加：表示文字居右<br>注：原生的语法两边都要用 | 包起来。此处省略</li></ul><p>(<code>)    function fun(){         echo "这是一句非常牛逼的代码";    }    fun();(</code>)</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><a id="more"></a><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><p>这是引用的内容</p></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote><p><a href="http://jianshu.com" target="_blank" rel="noopener">简书</a><br><a href="http://baidu.com" target="_blank" rel="noopener">百度</a></p><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><ul><li>列表内容</li></ul><p>注意：- + * 跟内容之间都要有一个空格</p><table><thead><tr><th>表头</th><th align="center">表头</th><th align="right">表头</th></tr></thead><tbody><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr><tr><td>内容</td><td align="center">内容</td><td align="right">内容</td></tr></tbody></table><p>第二行分割表头和内容。</p><ul><li>有一个就行，为了对齐，多加了几个<br>文字默认居左</li><li>两边加：表示文字居中</li><li>右边加：表示文字居右<br>注：原生的语法两边都要用 | 包起来。此处省略</li></ul><p>(<code>)    function fun(){         echo "这是一句非常牛逼的代码";    }    fun();(</code>)</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       
         <tags>
-            
-            <tag> 置顶 </tag>
             
             <tag> 生活 </tag>
             
@@ -25,7 +23,7 @@
     
     
     <entry>
-      <title>typora-vue-theme主题介绍</title>
+      <title>hexo+github博客搭建学习</title>
       <link href="/posts/6461.html"/>
       <url>/posts/6461.html</url>
       
@@ -34,16 +32,14 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> hexo </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Typora </tag>
-            
-            <tag> Markdown </tag>
+            <tag> hexo </tag>
             
         </tags>
       
